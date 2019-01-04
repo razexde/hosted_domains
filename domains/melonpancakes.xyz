@@ -1,0 +1,10 @@
+[melonpancakes.xyz]
+owner = melonpancakes
+email = hey@melonpancakes.xyz
+
+[webdisk]
+diskspace = 200M
+path = /var/www/melonpancakes
+php_enable = 0
+lets_encrypt = 1
+pagespeed = 1
