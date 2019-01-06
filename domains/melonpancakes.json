@@ -1,0 +1,21 @@
+{
+    "domain": "melonpancakes.xyz",
+    "owner": "melonpancakes",
+
+    "nginx": {
+        "server_name": "melonpancakes.xyz",
+        "diskspace": 200,
+        "path": "/var/www/melonpancakes",
+        "php_enable": false,
+        "force_ssl": true,
+        "lets_encrypt": true,
+        "pagespeed": true
+    },
+
+    "redirect": {
+        "www.melonpancakes.xyz": {
+            "return": 301,
+            "destination": "https://melonpancakes.xyz"
+        }
+    }
+}
