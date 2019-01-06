@@ -1,0 +1,30 @@
+{
+    "domain": "christopherkardas.me",
+    "owner": "chriskardas",
+
+    "nginx": {
+        "server_name": "christopherkardas.me",
+        "diskspace": 1024,
+        "path": "/var/www/chriskardas",
+        "php_enable": false,
+        "force_ssl": true,
+        "lets_encrypt": true,
+        "pagespeed": true
+    },
+
+    "mysql": {
+        "database": "chriskardas",
+        "max_connections": 2
+    },
+
+    "redirect": {
+        "www.christopherkardas.me": {
+            "return": 302,
+            "destination": "https://christopherkardas.me"
+        },
+        "/megagiveaway": {
+            "return": 302,
+            "destination": "https://giveaway.christopherkardas.me"
+        }
+    }
+}

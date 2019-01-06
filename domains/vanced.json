@@ -1,0 +1,28 @@
+{
+    "domain": "vanced.app",
+    "owner": "nobody",
+
+    "nginx": {
+        "server_name": "vanced.app",
+        "proxy_pass": "http://localhost:6200",
+        "force_ssl": true,
+        "lets_encrypt": true,
+        "pagespeed": true
+    },
+
+    "docker": {
+        "is_compose": true,
+        "compose_file": "/opt/vanced/docker-compose.yml"
+    },
+
+    "redirect": {
+        "vanced.cf www.vanced.cf": {
+            "return": 301,
+            "destination": "https://vanced.app"
+        },
+        "www.vanced.app": {
+            "return": 301,
+            "destination": "https://vanced.app"
+        }
+    }
+}
