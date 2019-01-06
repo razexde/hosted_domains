@@ -1,0 +1,15 @@
+{
+    "name": "hadepromo",
+    "email": "%placeholder%",
+    
+    "ftp": {
+        "enabled": true,
+        "username": "hadepromo",
+        "root_dir": "/var/www/hadepromo"
+    },
+
+    "backup": {
+        "enabled": true,
+        "image_path": "/var/volumes/hadepromo.img"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "melonpancakes",
+    "email": "hey@melonpancakes.xyz",
+    
+    "ftp": {
+        "enabled": true,
+        "username": "melonpancakes",
+        "root_dir": "/var/www/melonpancakes"
+    },
+
+    "backup": {
+        "enabled": true,
+        "image_path": "/var/volumes/melonpancakes.img"
+    }
+}

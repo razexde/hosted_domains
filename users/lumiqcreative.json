@@ -1,0 +1,15 @@
+{
+    "name": "lumiqcreative",
+    "email": "lumiqcreative@gmail.com",
+    
+    "ftp": {
+        "enabled": true,
+        "username": "lumiqcreative",
+        "root_dir": "/var/www/lumiqcreative"
+    },
+
+    "backup": {
+        "enabled": true,
+        "image_path": "/var/volumes/lumiqcreative.img"
+    }
+}

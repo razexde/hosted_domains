@@ -1,0 +1,15 @@
+{
+    "name": "lawnchair",
+    "email": "support@lawnchair.info",
+    
+    "ftp": {
+        "enabled": true,
+        "username": "lawnchair",
+        "root_dir": "/var/www/lawnchair"
+    },
+
+    "backup": {
+        "enabled": true,
+        "image_path": "/var/volumes/lawnchair.img"
+    }
+}

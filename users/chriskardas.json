@@ -1,0 +1,15 @@
+{
+    "name": "chriskardas",
+    "email": "chris@christopherkardas.me",
+    
+    "ftp": {
+        "enabled": true,
+        "username": "chriskardas",
+        "root_dir": "/var/www/chriskardas"
+    },
+
+    "backup": {
+        "enabled": true,
+        "image_path": "/var/volumes/chriskardas.img"
+    }
+}
