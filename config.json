@@ -1,0 +1,15 @@
+{
+    "database": "/opt/controlpanel/data/users.db",
+    "volumes_path": "/var/volumes/",
+
+    "host_docker": true,
+    "allow_proxy": false,
+    "enable_ssh": false,
+
+    "system_users": {
+        "nobody": {
+            "owner": "$divadsn",
+            "email": "webmaster@codebucket.de"
+        }
+    }
+}
