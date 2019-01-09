@@ -1,5 +1,5 @@
 {
-    "database": "/opt/controlpanel/data/users.db",
+    "database": "./data/users.db",
     "volumes_path": "/var/volumes/",
 
     "host_docker": true,
