@@ -1,4 +1,4 @@
 # hosted_domains
-Repo containing all hosted domains and configurations for the control panel
+Repo containing all hosted domains and configurations for the control panel.
 
-You want your site to be hosted? Ask [@divadsn](https://t.me/divadsn) on Telegram.
+You want your site to be hosted? Ask [@divadsn](https://t.me/divadsn) on Telegram or visit [our website](https://www.razex.de/#about-us).
