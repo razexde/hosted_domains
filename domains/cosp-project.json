@@ -1,0 +1,19 @@
+{
+    "domain": "cosp-project.org",
+    "owner": "cospota",
+
+    "nginx": {
+        "server_name": "ota.cosp-project.org",
+        "diskspace": 512,
+        "path": "/var/www/cospota",
+        "php_enable": true,
+        "force_ssl": true,
+        "lets_encrypt": true,
+        "pagespeed": false
+    },
+
+    "mysql": {
+        "database": "cospota",
+        "max_connections": 2
+    }
+}
