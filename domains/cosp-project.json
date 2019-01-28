@@ -1,19 +1,17 @@
 {
     "domain": "cosp-project.org",
-    "owner": "cospota",
+    "owner": "nobody",
 
     "nginx": {
         "server_name": "ota.cosp-project.org",
-        "diskspace": 512,
-        "path": "/var/www/cospota",
-        "php_enable": true,
+        "proxy_pass": "http://localhost:6080",
         "force_ssl": true,
         "lets_encrypt": true,
-        "pagespeed": false
+        "pagespeed": true
     },
 
-    "mysql": {
-        "database": "cospota",
-        "max_connections": 2
+    "docker": {
+        "is_compose": true,
+        "compose_file": "/opt/cosp-ota/docker-compose.yml"
     }
 }
