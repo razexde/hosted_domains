@@ -1,9 +1,9 @@
 {
-    "domain": "falelobot.ovh",
+    "domain": "falelobot.pl",
     "owner": "nobody",
 
     "nginx": {
-        "server_name": "www.falelobot.ovh",
+        "server_name": "www.falelobot.pl",
         "rootdir": "/var/www/falelobot",
         "php_enable": true,
         "force_ssl": false,
@@ -12,13 +12,13 @@
     },
 
     "redirect": {
-        "falelobot.pl www.falelobot.pl": {
+        "falelobot.ovh www.falelobot.ovh": {
             "return": 301,
-            "destination": "falelobot.ovh"
+            "destination": "falelobot.pl"
         },
-        "falelobot.ovh": {
+        "falelobot.pl": {
             "return": 301,
-            "destination": "www.falelobot.ovh"
+            "destination": "www.falelobot.pl"
         }
     }
 }
