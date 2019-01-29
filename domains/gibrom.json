@@ -1,0 +1,20 @@
+{
+    "domain": "gibrom.de",
+    "owner": "nobody",
+
+    "nginx": {
+        "server_name": "gibrom.de",
+        "rootdir": "/var/www/gibrom",
+        "php_enable": true,
+        "force_ssl": true,
+        "lets_encrypt": true,
+        "pagespeed": true
+    },
+
+    "redirect": {
+        "www.gibrom.de": {
+            "return": 301,
+            "destination": "gibrom.de"
+        }
+    }
+}
